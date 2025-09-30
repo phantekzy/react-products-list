@@ -1,16 +1,22 @@
-# React + Vite
+# React Products List
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A beginner friendly React project that displays a list of products with search and filter functionality. Users can type in the search bar to filter products by name and use a checkbox to show only the products that are in stock. This project demonstrates the use of React components, props, and the useState hook for managing state. It’s a simple but solid example of how to build interactive UIs with React.
 
-Currently, two official plugins are available:
+Features:
+- Display products grouped by category (e.g., Fruits, Vegetables)
+- Search bar to filter products by name
+- Checkbox to filter only available (stocked) products
+- Products not in stock are displayed in red
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Tech Stack:
+- React (with functional components and hooks)
+- Bootstrap (for basic styling)
 
-## React Compiler
+How to Run:
+1. Clone the repository: git clone https://github.com/phantekzy/react-products-list.git
+2. Navigate into the project folder: cd react-products-list
+3. Install dependencies: npm install
+4. Start the development server: npm run dev
+5. Open your browser at http://localhost:5173/ (default Vite port)
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This project is part of my learning journey in web development and React. 
